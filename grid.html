@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Practice</title>
+    <link rel="stylesheet" href="grid.css">
+</head>
+<body>
+    <div class="container">
+        <header style="grid-area:header;">
+            <img src="logo.png" alt="Samsung Logo" id="logo">
+            <ul>
+                <li><a href="#home">Home    </a></li>
+                <li><a href="#sales">Shops   </a></li>
+                <li><a href="#explore">Explore </a></li>
+                <li><a href="#contact">Contact </a></li>
+                <li><a href="#service">Services</a></li>
+            </ul>
+        </header>
+        <aside style="grid-area:aside;" id="explore">
+            <ul>
+                <li>some things we do at our company
+                    suanjdasij a ija fj a auf  ads aja
+                    as fefjaa ua aj faejw af jda sae fa
+                    a jire fiafdas j a afij aef ad fapj 
+                    jsdaf da ad i r aaj ie rafaaafj 
+                </li>
+                <li>some things we do at our company
+                    suanjdasij a ija fj a auf  ads aja
+                    as fefjaa ua aj faejw af jda sae fa
+                    a jire fiafdas j a afij aef ad fapj 
+                    jsdaf da ad i r aaj ie rafaaafj 
+                </li>
+                <li>some things we do at our company
+                    suanjdasij a ija fj a auf  ads aja
+                    as fefjaa ua aj faejw af jda sae fa
+                    a jire fiafdas j a afij aef ad fapj 
+                    jsdaf da ad i r aaj ie rafaaafj 
+                </li>
+            </ul>
+        </aside>
+        <main style="grid-area:main ;" id="home">
+            
+            <div class="flex-body">
+                <div id="left">
+                    <h1>Shop with Us</h1>
+                    <p>We offer the best price and top quality smartphones brought to you
+                        by Samsung. Click <i class="fas fa-down"></i> to Proceed
+                    </p>
+                    <button>Buy Me</button>
+                </div>
+                <div id="right">
+                    <img src="phone.png" alt="Samsung S9 Phone" id="phone">
+                </div>
+            </div>
+        </main>
+        <section class="sales" id="sales" style="grid-area: sales;">
+            <div class="card">
+                <div class="card-img">
+                    <img src="12.png" alt="Galaxy Z phone" id="card-img">
+                </div>
+                <div class="price fit-card">
+                    <h2>iPhone 12</h2>
+                    <p id="price">$1099</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="Z.png" alt="Galaxy Z phone" id="card-img">
+                </div>
+                <div class="price fit-card">
+                    <h2>Galazy Z20</h2>
+                    <p id="price">$1000</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="mac.png" alt="macbook pro" id="card-img">
+                </div>
+                <div class="price fit-card">
+                    <h2>MacBook Pro</h2>
+                    <p id="price">$700</p>
+                </div>
+            </div>
+        </section>
+        <section class="description" id="service" style="grid-area: description;">
+           <div class="sales-con">
+                <div id="headdis">
+                <h1>Abba and Sadiq's Store</h1>
+                <img src="" alt="">
+            </div>
+            <div class="store">
+                <p>
+                    We offer the best products in town and our products are very affordable.
+                    Our store has received numerous and appreciative ratings.
+                    We are always ready to provide our customers with the best improvements they want
+                    If our products cause any problems to our customers to endeavor to contact us for help.
+                </p>
+            </div>
+        </div>
+
+        </section>
+        <footer style="grid-area:footer ;" id="contact">
+            Thank you for patronizing us.
+            <form action="#">
+                <input  type="email"
+                        placeholder="Send us an Email..." 
+                        id=" form-control">
+            </form>
+        </footer>
+    </div>
+</body>
+</html>
